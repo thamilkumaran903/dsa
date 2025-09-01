@@ -11,6 +11,8 @@ public static void main(String[] args) {
 	MyAppro(f);
 	
 	Optimal(f);
+	
+	Optimal(s);
 }
 public static void MyAppro(String s)
 {
@@ -68,5 +70,6 @@ public static void Optimal(String s)
 		maps.put(c,i+1);
 	}
 	System.out.println("max len is :"+max);
+	System.out.println("\nmaps contains :"+maps);
 }
 }
